@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=UltraRunner
+
+
+[Package|UltraRunner|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\C盘“我的文件夹”\basic文件\UltraRunner\UltraRunner
+
+[Package|UltraRunner|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UltraRunner|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UltraRunner|Files Found]
+
+[Package|UltraRunner|Files Released]
+
+[Package|UltraRunner|Missing Dependency Information]
+
+[Package|UltraRunner|Out-of-Date Dependency Information]
+
+[Package|UltraRunner|Files Added]
+
+[Package|UltraRunner|Files Removed]
+
+[Package|UltraRunner|Files In Project]
+E:\C盘“我的文件夹”\basic文件\UltraRunner\CFIT UltraRunner.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+F:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+F:\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+F:\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|UltraRunner|Configure Registry Files]
+Applicable=No
+
+[Package|UltraRunner|Configure Remote Servers]
+Applicable=No
+
+[Package|UltraRunner|Install Locations]
+E:\C盘“我的文件夹”\basic文件\UltraRunner\CFIT UltraRunner.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+F:\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+F:\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|UltraRunner|Configure Shared Files]
+Applicable=Yes
+E:\C盘“我的文件夹”\basic文件\UltraRunner\CFIT UltraRunner.exe=Yes
+
+[Package|UltraRunner|Distribution]
+Type=single
+Size=
+Title=UltraRunner
+
+[Package|UltraRunner|IconGroups]
+Group0=UltraRunner
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|UltraRunner|UltraRunner]
+Icon1="CFIT UltraRunner.exe"
+Title1=UltraRunner
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|UltraRunner|Package]
+PackageFolder=E:\C盘“我的文件夹”\basic文件\UltraRunner\UltraRunner
+ProjectFolder=E:\C盘“我的文件夹”\basic文件\UltraRunner
+ServerSideCab=
+File1=E:\C盘“我的文件夹”\basic文件\UltraRunner\UltraRunner\setup.exe
+File2=E:\C盘“我的文件夹”\basic文件\UltraRunner\UltraRunner\Setup.Lst
+File3=E:\C盘“我的文件夹”\basic文件\UltraRunner\UltraRunner\CFIT UltraRunner.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
